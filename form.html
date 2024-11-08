@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borang Pendaftaran</title>
+</head>
+<body>
+    <h2>Borang pendaftaran</h2>
+
+    <form action="process.php" method="post">
+
+
+    <p>
+        <label for="nama">Nama peserta</label>
+        <input type="text" name="nama" id="nama">
+    </p>
+
+    <p>
+        <label for="nama">Email</label>
+        <input type="text" name="nama" id="nama">
+    </p>
+
+    <p>
+        <label for="nama">No telefon</label>
+        <input type="text" name="nama" id="nama">
+    </p>
+
+    <p>
+        <label for="nama">alamat</label>
+        <input type="text" name="nama" id="nama">
+    </p>
+
+    <p>
+        <label for="nama">poskod</label>
+        <input type="text" name="nama" id="nama">
+    </p>
+
+    <p>
+        <label for="status">status pekerjaan</label>
+        <select name="status" id="status">
+            <option value="bekerja">BEKERJA</option>
+            <option value="belajar">BELAJAR</option>
+            <option value="tidak bekerja">TIDAK BEKERJA</option>
+        </select>
+    </p>
+
+    <p>
+        <label for=""> jantina </label>
+
+            <label for ="lelaki">
+                <input type="radio" name="jantina" id="lelaki" value="lelaki">LELAKI
+             </label>   
+    
+            <label for="perempuan"> 
+                <input type="radio" name="jantina" id="perempuan" value="perempuan">PEREMPUAN
+            </label>
+    </p>
+
+    <p>
+        <label for=""> Pengalaman</label>
+
+        <label for="HTML">
+            <input type="checkbox" name="Pengalaman[]" id="HTML" value="HTML"> HTML
+        </label>
+
+        <label for="CSS">
+            <input type="checkbox" name="Pengalaman[]" id="CSS" value="CSS"> CSS
+        </label>
+        
+        <label for="PHP">
+            <input type="checkbox" name="Pengalaman[]" id="PHP" value="PHP"> PHP
+        </label>
+
+    </p>
+
+    <p>
+        <button type="submit"> daftar</button>
+        <button type="reset"> reset</button>
+
+    </p>
+
+
+
+    </form>
+    
+</body>
+</html>
